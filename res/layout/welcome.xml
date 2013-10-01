@@ -5,6 +5,18 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/aboutl1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,25 +29,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="5"
-        android:text="@string/name"
+        android:text="@string/aboutl2"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/desig"
-        android:layout_width="wrap_content"
+        android:id="@+id/ling"
+        android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:ems="5"
-        android:text="@string/name"
+        android:text="@string/aboutl3"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/arcelie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:ems="5"
-        android:text="@string/name"
+        android:text="@string/aboutl4"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Kavy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="5"
+        android:text="@string/aboutl5"
         android:textColor="@color/black"
         android:textSize="20sp" />
 

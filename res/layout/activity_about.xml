@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutl1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:text="@string/aboutl2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ling"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:text="@string/aboutl3"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/arcelie"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:text="@string/aboutl4"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Kavy"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:text="@string/aboutl5"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Pankaj"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:text="@string/aboutl6"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Prof"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:text="@string/aboutl7"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Client"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:text="@string/aboutl8"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/copyr"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:ems="5"
+        android:text="@string/aboutl9"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/arr"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:text="@string/aboutl10"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

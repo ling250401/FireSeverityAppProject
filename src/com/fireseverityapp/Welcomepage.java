@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.support.v4.app.NavUtils;
 
-public class Welcompage extends Activity {
+public class Welcomepage extends Activity {
 	
 	
 	private SharedPreferences mSettings;
@@ -37,8 +37,8 @@ public class Welcompage extends Activity {
 		// Show the Up button in the action bar.
 		setupActionBar();
 		
-		userNameField = (TextView)this.findViewById(R.id.userField);
-		userEmailField = (TextView)this.findViewById(R.id.userEmailField);
+		userNameField = (TextView)this.findViewById(R.id.regNameField);
+		userEmailField = (TextView)this.findViewById(R.id.regEmailField);
 		
 		boolean isExist = isUserExist(this);
 		// If User First Login

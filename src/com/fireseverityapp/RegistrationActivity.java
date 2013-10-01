@@ -41,7 +41,7 @@ public class RegistrationActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				addUser();
-				Intent i=new Intent(RegistrationActivity.this,Welcompage.class);
+				Intent i=new Intent(RegistrationActivity.this,Welcomepage.class);
 				startActivity(i);
 			}
 		});
