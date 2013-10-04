@@ -62,6 +62,6 @@
         android:onClick="enterCam"
         android:text="@string/welcome_button_start"
         android:textColor="@color/black"
-        android:textStyle="bold" />
+		android:textStyle="bold" />
 
 </RelativeLayout>
