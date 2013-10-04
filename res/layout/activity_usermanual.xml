@@ -27,11 +27,15 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/um"
         android:layout_below="@+id/um"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/imageButton1"
         android:ems="5"
         android:text="@string/uml1"
         android:textColor="@color/white"
-         android:layout_marginTop="15dp"
         android:textSize="15sp" />
+    
+    
+
     <TextView
         android:id="@+id/uml2"
         android:layout_width="288dp"
