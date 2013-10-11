@@ -16,7 +16,8 @@
     <color name="ssl_text_value">#ffffff</color>
     <color name="geolocation_permissions_prompt_background">#ffdddd</color>
      <color name="calculator_output">#00ff00</color>
-     <color name="orange">#FF4500</color>
+     <color name="orange">#DEB887</color>
+     
 
 
 </resources>

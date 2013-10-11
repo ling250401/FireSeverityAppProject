@@ -19,6 +19,7 @@
         android:onClick="enterUsermanual"
         android:text="@string/welcome_button_usermanual"
         android:textColor="@color/black"
+        android:background="@color/white"
         android:textStyle="bold" />
 
     <Button
@@ -30,6 +31,7 @@
         android:onClick="enterExit"
         android:text="@string/welcome_button_exit"
         android:textColor="@color/black"
+        android:background="@color/white"
         android:textStyle="bold" />
 
     <ImageView
@@ -50,7 +52,8 @@
         android:layout_marginBottom="28dp"
         android:text="@string/welcome_button_about"
         android:textColor="@color/black"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@color/white" />
 
     <Button
         android:id="@+id/button04"
@@ -62,6 +65,7 @@
         android:onClick="enterCam"
         android:text="@string/welcome_button_start"
         android:textColor="@color/black"
+        android:background="@color/white"
 		android:textStyle="bold" />
 
 </RelativeLayout>
