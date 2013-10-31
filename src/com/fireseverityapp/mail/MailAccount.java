@@ -11,7 +11,7 @@ public class MailAccount extends Application{
 	 */
 	private String accountID = "fireseveritylevel@gmail.com";
 	private String password = "hello12345";
-	private String receiverEmail = "kanwar.r007@gmail.com";
+	private String receiverEmail = "snowneco@gmail.com";
 	private String subject = "Fire Severity Level App Notice Email";
 
 	public String getReceiverEmail() {
